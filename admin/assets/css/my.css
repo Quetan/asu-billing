@@ -91,3 +91,30 @@ div.column > ul > li > span {
 .clickable {
     cursor: pointer;
 }
+
+.menu .menu-list li a{
+    line-height: 18px;
+    border-radius: 0;
+    transition: background-color .3s ease;
+}
+
+.menu .menu-list li a.active{
+    background-color: #e4e4e4;
+}
+
+
+.menu .menu-list .toggle a:hover{
+    background-color: transparent;
+}
+
+.menu .menu-list .toggle{
+    color: #f3f3f3;
+    background-color: #ef5350;
+}
+
+.menu .menu-list .toggle.active{
+    background-color: #6bdd6d;
+}
+
+
+
